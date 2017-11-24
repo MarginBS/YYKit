@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "YYAppDelegate.h"
+#import "JMAppDelegate.h" // for mock
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([YYAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([JMAppDelegate class]));
     }
 }

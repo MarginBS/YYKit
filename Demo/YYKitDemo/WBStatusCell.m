@@ -982,6 +982,7 @@
 
 - (void)prepareForReuse {
     // ignore
+    
 }
 
 - (void)setLayout:(WBStatusLayout *)layout {

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3911F7A91FC83D6D00075ABC /* JMWeiboExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3911F7A81FC83D6D00075ABC /* JMWeiboExampleViewController.m */; };
+		3911F7AF1FC84A3100075ABC /* JMStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3911F7AE1FC84A3100075ABC /* JMStatusCell.m */; };
+		3913F9B81FC80F61006C5599 /* JMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3913F9B61FC80E7D006C5599 /* JMAppDelegate.m */; };
+		3913F9BC1FC8116F006C5599 /* JMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3913F9BB1FC8116F006C5599 /* JMRootViewController.m */; };
+		3913F9C01FC81579006C5599 /* JMFeedListExampleVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3913F9BF1FC81579006C5599 /* JMFeedListExampleVc.m */; };
 		ABDC320D1BEAFB870012A159 /* YYTextTagExample.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */; };
 		D9067DF11B975D3900F346EB /* YYTextExampleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF01B975D3900F346EB /* YYTextExampleHelper.m */; };
 		D9067DF41B9813B500F346EB /* YYTextEditExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D9067DF31B9813B500F346EB /* YYTextEditExample.m */; };
@@ -196,6 +201,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3911F7A71FC83D6D00075ABC /* JMWeiboExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMWeiboExampleViewController.h; sourceTree = "<group>"; };
+		3911F7A81FC83D6D00075ABC /* JMWeiboExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMWeiboExampleViewController.m; sourceTree = "<group>"; };
+		3911F7AD1FC84A3100075ABC /* JMStatusCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMStatusCell.h; sourceTree = "<group>"; };
+		3911F7AE1FC84A3100075ABC /* JMStatusCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMStatusCell.m; sourceTree = "<group>"; };
+		3913F9B61FC80E7D006C5599 /* JMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMAppDelegate.m; sourceTree = "<group>"; };
+		3913F9B71FC80E7D006C5599 /* JMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMAppDelegate.h; sourceTree = "<group>"; };
+		3913F9BA1FC8116F006C5599 /* JMRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMRootViewController.h; sourceTree = "<group>"; };
+		3913F9BB1FC8116F006C5599 /* JMRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMRootViewController.m; sourceTree = "<group>"; };
+		3913F9BE1FC81579006C5599 /* JMFeedListExampleVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMFeedListExampleVc.h; sourceTree = "<group>"; };
+		3913F9BF1FC81579006C5599 /* JMFeedListExampleVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMFeedListExampleVc.m; sourceTree = "<group>"; };
 		ABDC320B1BEAFB870012A159 /* YYTextTagExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTagExample.h; sourceTree = "<group>"; };
 		ABDC320C1BEAFB870012A159 /* YYTextTagExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTagExample.m; sourceTree = "<group>"; };
 		D9067DEF1B975D3900F346EB /* YYTextExampleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextExampleHelper.h; sourceTree = "<group>"; };
@@ -542,6 +557,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3911F7A51FC83D3E00075ABC /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		3911F7A61FC83D3F00075ABC /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				3911F7A71FC83D6D00075ABC /* JMWeiboExampleViewController.h */,
+				3911F7A81FC83D6D00075ABC /* JMWeiboExampleViewController.m */,
+				3911F7AD1FC84A3100075ABC /* JMStatusCell.h */,
+				3911F7AE1FC84A3100075ABC /* JMStatusCell.m */,
+			);
+			path = Weibo;
+			sourceTree = "<group>";
+		};
+		3913F9B51FC80E6D006C5599 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3913F9B71FC80E7D006C5599 /* JMAppDelegate.h */,
+				3913F9B61FC80E7D006C5599 /* JMAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3913F9B91FC8115C006C5599 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3913F9BA1FC8116F006C5599 /* JMRootViewController.h */,
+				3913F9BB1FC8116F006C5599 /* JMRootViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		3913F9BD1FC81526006C5599 /* Feed List */ = {
+			isa = PBXGroup;
+			children = (
+				3913F9BE1FC81579006C5599 /* JMFeedListExampleVc.h */,
+				3913F9BF1FC81579006C5599 /* JMFeedListExampleVc.m */,
+			);
+			path = "Feed List";
+			sourceTree = "<group>";
+		};
+		C3528F621FC80B5D0073F9C5 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mock;
+			path = ../Mock;
+			sourceTree = "<group>";
+		};
+		C3528F631FC80B9C0073F9C5 /* MockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3911F7A51FC83D3E00075ABC /* Twitter */,
+				3911F7A61FC83D3F00075ABC /* Weibo */,
+				3913F9B51FC80E6D006C5599 /* AppDelegate */,
+				3913F9B91FC8115C006C5599 /* RootViewController */,
+				3913F9BD1FC81526006C5599 /* Feed List */,
+			);
+			name = MockDemo;
+			path = ../MockDemo;
+			sourceTree = "<group>";
+		};
 		D9067E041B98A39200F346EB /* Feed List */ = {
 			isa = PBXGroup;
 			children = (
@@ -776,6 +857,8 @@
 			isa = PBXGroup;
 			children = (
 				D9B25F9F1BEE79370038C00A /* YYKit */,
+				C3528F621FC80B5D0073F9C5 /* Mock */,
+				C3528F631FC80B9C0073F9C5 /* MockDemo */,
 				D97484D219CAAD2900F46DE1 /* YYKitDemo */,
 				D974852319CAB3AE00F46DE1 /* Frameworks */,
 				D97484D119CAAD2900F46DE1 /* Products */,
@@ -1148,9 +1231,9 @@
 		D97484C819CAAD2900F46DE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = YY;
+				CLASSPREFIX = JM;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = ibireme;
+				ORGANIZATIONNAME = jama;
 				TargetAttributes = {
 					D97484CF19CAAD2900F46DE1 = {
 						CreatedOnToolsVersion = 9.0;
@@ -1257,6 +1340,7 @@
 				D9B260671BEE79370038C00A /* UIGestureRecognizer+YYAdd.m in Sources */,
 				D9B260681BEE79370038C00A /* UIImage+YYAdd.m in Sources */,
 				D9067DF11B975D3900F346EB /* YYTextExampleHelper.m in Sources */,
+				3913F9C01FC81579006C5599 /* JMFeedListExampleVc.m in Sources */,
 				D9971BB01B84D55A00A7B424 /* YYTextAttributeExample.m in Sources */,
 				D9B260A01BEE79370038C00A /* YYWeakProxy.m in Sources */,
 				D9B260951BEE79370038C00A /* YYAsyncLayer.m in Sources */,
@@ -1295,6 +1379,7 @@
 				D9B2607B1BEE79370038C00A /* YYImageCoder.m in Sources */,
 				D9B260801BEE79370038C00A /* YYClassInfo.m in Sources */,
 				D9B260981BEE79370038C00A /* YYGestureRecognizer.m in Sources */,
+				3911F7A91FC83D6D00075ABC /* JMWeiboExampleViewController.m in Sources */,
 				D92FF8651BC7FF0E00FFEBF4 /* T1HomeTimelineItemsViewController.m in Sources */,
 				D9B2608D1BEE79370038C00A /* YYTextArchiver.m in Sources */,
 				D9067DF71B9856FF00F346EB /* YYTextMarkdownExample.m in Sources */,
@@ -1323,9 +1408,11 @@
 				D9067E071B98A3B200F346EB /* YYFeedListExample.m in Sources */,
 				D9B260971BEE79370038C00A /* YYFileHash.m in Sources */,
 				D9B260631BEE79370038C00A /* UIColor+YYAdd.m in Sources */,
+				3911F7AF1FC84A3100075ABC /* JMStatusCell.m in Sources */,
 				D9B2609E1BEE79370038C00A /* YYTimer.m in Sources */,
 				D9B260651BEE79370038C00A /* UIDevice+YYAdd.m in Sources */,
 				D9B260711BEE79370038C00A /* YYMemoryCache.m in Sources */,
+				3913F9BC1FC8116F006C5599 /* JMRootViewController.m in Sources */,
 				D9B260661BEE79370038C00A /* UIFont+YYAdd.m in Sources */,
 				D9B2605F1BEE79370038C00A /* YYCGUtilities.m in Sources */,
 				D9B2605C1BEE79370038C00A /* NSThread+YYAdd.m in Sources */,
@@ -1358,6 +1445,7 @@
 				D9B260811BEE79370038C00A /* YYTextContainerView.m in Sources */,
 				D9B260551BEE79370038C00A /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				D9B260521BEE79370038C00A /* NSData+YYAdd.m in Sources */,
+				3913F9B81FC80F61006C5599 /* JMAppDelegate.m in Sources */,
 				D9B260581BEE79370038C00A /* NSObject+YYAdd.m in Sources */,
 				D9B2606E1BEE79370038C00A /* YYCache.m in Sources */,
 			);
@@ -1499,7 +1587,7 @@
 					"$(PROJECT_DIR)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibireme.YYKitDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYKitDemo;
 				PRODUCT_NAME = YYKitDemo;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1527,7 +1615,7 @@
 					"$(PROJECT_DIR)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibireme.YYKitDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYKitDemo;
 				PRODUCT_NAME = YYKitDemo;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
